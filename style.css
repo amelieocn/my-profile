@@ -1,0 +1,88 @@
+
+body {
+	font-family: Madeleina Sans, sans-serif;
+	color: #18587a
+}
+
+h2 {
+ 	font-family: Madeleina Sans, serif;
+ 	color: #fc624d
+}
+
+h1 {
+ 	font-family: LemonMilk, serif;
+ 	color: #fc624d
+}
+
+#amelie_ocana {
+  width: 230px;
+	height: 250x;
+	border-radius: 50%;
+}
+a {
+  color: #fc624d;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: #18587a;
+  text-decoration: none;
+}
+
+.album-thumbnails a {
+  width: 10%;
+  height: 120px;
+  margin-right: 1px;
+
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+.album-thumbnails a img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  width: auto;
+  -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+}
+.album-thumbnails a img.portrait {
+  width: 100%;
+  height: auto;
+}
+
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+
+@media (max-width: 768px) {
+  .float-left-sm {
+    float: left;
+  }
+}
+
+@media (min-width: 769px) {
+  .float-left-lg {
+    float: left;
+  }
+}
+
+.card-white {
+  background: white;
+  padding: 30px;
+  border: 1px solid lightgrey;
+}
