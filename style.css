@@ -1,23 +1,23 @@
 
 body {
-	font-family: Madeleina Sans, sans-serif;
-	color: #18587a
+font-family: Madeleina Sans, sans-serif;
+color: #18587a
 }
 
 h2 {
- 	font-family: Madeleina Sans, serif;
- 	color: #fc624d
+  font-family: Madeleina Sans, serif;
+  color: #fc624d
 }
 
 h1 {
- 	font-family: LemonMilk, serif;
- 	color: #fc624d
+  font-family: LemonMilk, serif;
+  color: #fc624d
 }
 
 #amelie_ocana {
   width: 230px;
-	height: 250x;
-	border-radius: 50%;
+  height: 250x;
+border-radius: 50%;
 }
 a {
   color: #fc624d;
@@ -53,6 +53,17 @@ a:hover {
   height: auto;
 }
 
+.card-white {
+  background: white;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.3);
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
 
 @media (max-width: 960px) {
   .container {
@@ -69,20 +80,6 @@ a:hover {
     width: 300px;
   }
 
-@media (max-width: 768px) {
-  .float-left-sm {
-    float: left;
-  }
-}
-
-@media (min-width: 769px) {
-  .float-left-lg {
-    float: left;
-  }
-}
-
-.card-white {
-  background: white;
-  padding: 30px;
-  border: 1px solid lightgrey;
+.img-circle {
+  border-radius: 50%;
 }
